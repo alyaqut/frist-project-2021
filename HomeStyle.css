@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    box-shadow: 0px 0px 3rem rgba(0, 0, 0, .175);
+}
+.navbar nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100%;
+}
+nav .logo{
+    padding: 0 20px;
+}
+nav .logo{
+    color: rgb(146, 14, 146);
+}
+nav .logo span{
+    color: black;
+}
+.links li{
+    height: 100%;
+    display: inline-block;
+    margin: 0 5px;
+   
+}
+.links li a{
+    color: rgba(255,255,255,.6);
+    margin: 0 10px;
+    font-size: 18px;
+}
+.links a .fa{
+    
+}
+.signs{
+    margin: 0 20px;
+    
+}
+.signs button{
+   width: 100px;
+   height: 35px;
+   font-size: 14px;
+   font-weight: 600;
+   border-radius: 5px;
+
+}
+.signs .btn1{
+    background-color: rgb(146, 14, 146);
+    border: none;
+}
+.signs .btn2{
+    background-color: rgb(150, 39, 39);
+    border: none;
+
+}
+.signs .btn1 a{
+    color: #fff;
+}
+.signs .btn2 a{
+    color: #fff;
+}
+/*boxs style */
+.contianer .boxs{
+    background-color: #555;
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    overflow: hidden;
+    grid-gap: 10px;
+    
+   
+}
+.contianer .boxs .box1{
+    background-color: #444;
+    width: 100%;
+    height: 90vh;
+    margin: 10px;
+  
+}
+.contianer .boxs .box2{
+    background-color: #444;
+    width: 100%;
+    height: 150vh;
+    margin: 10px;
+    scrollbar-width: 20px;
+
+}
+.contianer .boxs .box3{
+    background-color: #444;
+    width: 100%;
+    height: 90vh;
+    margin: 10px;
+   
+
+}
+.boxs .box1 .top-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+.boxs .box1 .top-content .cont{
+    background-color: #333;
+    box-shadow: -3px -3px 7px #444,3px 3px 5px #555;
+    border-radius: 7px;
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+
+}
+.boxs .box1 .top-content .cont{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100px;
+   flex-direction: column;
+}
+.boxs .box1 .top-content .cont a{
+    font-size: 40px;
+    color: rgb(146, 14, 146);
+}
+.boxs .box1 .top-content .cont span{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255,255,255,.6);
+}
+.boxs .box1 .bottom-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+}
+.boxs .box1 .bottom-content .cont-b{
+    background-color: #333;
+    box-shadow: -3px -3px 7px #444,3px 3px 5px #555;
+    border-radius: 7px;
+    height: 70px;
+    margin: 5px;
+
+}
+.boxs .box1 .bottom-content  .logoff{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100%;
+    padding: 0 20px;
+}
+.boxs .box1 .bottom-content  .logoff button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: -3px -3px 10px rgb(92, 91, 91),3px 3px 10px rgb(83, 83, 83);
+    background-color: #333;
+}
+.boxs .box1 .bottom-content  .logoff button .fa-power-off{
+    color: red;
+}
+.boxs .box1 .bottom-content  .logoff .logtext{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(121, 119, 119);
+}
+
+.boxs .box3 .box3cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
+}
+.boxs .box3 .box3cont .cont-bt{
+    background-color: #333;
+    box-shadow: -3px -3px 7px #444,3px 3px 5px #555;
+    border-radius: 7px;
+    width: 180px;
+    height: 160px;
+    margin: 5px;
+
+}
+.boxs .box3 .box3cont .cont-bt .img-avater{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.boxs .box3 .box3cont .cont-bt .img-avater img{
+    border-radius: 50%;
+    
+}
+.boxs .box3 .box3cont .cont-bt .img-avater .circle{
+    border-radius: 50%;
+    box-shadow: -3px -3px 10px #444,3px 3px 10px #555;
+    background-color: #333;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+
+}
+.boxs .box3 .box3cont .cont-bt .img-avater span{
+   font-size: 16px;
+   font-weight: 600;
+   color: #000;
+   
+}
+.boxs .box3 .box3cont .cont-bt .btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 15px;
+    
+    
+}
+.boxs .box3 .box3cont .cont-bt .btn button{
+    width: 100px;
+    height: 26px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(146, 14, 146);
+    padding: 0px 9px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s ease-in;
+    text-align: center;
+   
+    
+}
+.boxs .box3 .box3cont .cont-bt .btn button i{
+   
+   margin-left: 10px;
+}
+.boxs .box3 .box3cont .cont-bt .btn button:hover{
+    background-color: rgb(146, 14, 146);
+}
+/* ******************** box2 style **********************/
+.stories{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+.stories .story{
+    background-color: #333;
+    box-shadow: -3px -3px 7px #444,3px 3px 5px #555;
+    border-radius: 7px;
+    height: 170px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.stories .story img {
+    width: 95%;
+    height: 95%;
+    border-radius:7px;
+}
+.post-empty{
+    background-color: #333;
+    width: 95%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 10px auto;
+    border-radius: 7px;
+}
+.post-empty .post .text{
+    margin: 10px 0;
+    opacity: 0.6;
+    margin-left: 3px;
+    padding: 3px;
+}
+.post-empty .post i .fa-edit{
+    
+}
+.post{
+    
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.post .btn-post{
+    width: 80%;
+    background-color: rgb(146, 14, 146);
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 5px;
+    border:none;
+    border-radius: 6px;
+    cursor:pointer;
+}
+.react li{
+    height: 100%;
+    display:inline-block;
+    margin: 0 5px;
+    
+
+   
+}
+.react li a{
+    color: rgba(255,255,255,.6);
+}
